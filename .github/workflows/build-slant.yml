@@ -1,0 +1,12 @@
+name: 'Build Slant with nice_nano_v2'
+on: push
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["nice_nano_v2"]'
+      shield: '["slant_left","slant_right"]'
+      alphas: '["QWERTY"]'
+      nav: '["vi"]'
+      clipboard: '["Win"]'
