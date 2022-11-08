@@ -1,0 +1,4 @@
+outboard_repository=darsor/zmk-config
+outboard_ref=master
+outboard_from=config/boards/shields/slant
+outboard_to=boards/shields/slant
